@@ -1,0 +1,17 @@
+@import "style-component/navbar.css";
+
+@font-face {
+    font-family: "Agatho";
+    src: url('./../assets/fonts/Agatho_ RegularCAPS.otf');
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('./../assets/fonts/Montserrat-Regular.ttf');
+}
+
+* {
+    font-family: "Montserrat", serif;
+    background-color: #F8F6F0;
+}
+
