@@ -1,6 +1,16 @@
 @font-face {
-    font-family: "Agatho";
-    src: url('./../assets/fonts/Agatho_ RegularCAPS.otf');
+    font-family: "NeueHaas Bold";
+    src: url('./../assets/fonts/NeueHaasDisplayBold.ttf');
+}
+
+@font-face {
+    font-family: "NeueHaas Regular";
+    src: url('./../assets/fonts/NeueHaasDisplayRegular.ttf');
+}
+
+@font-face {
+    font-family: "NeueHaas Light";
+    src: url('./../assets/fonts/NeueHaasDisplayLight.ttf');
 }
 
 @font-face {
@@ -20,6 +30,14 @@ body {
     background-color: #F8F6F0;
 }
 
-.font-style-agatho {
-    font-family: "Agatho", serif;
+.font-style-neueHaas-bold {
+    font-family: "NeueHaas Bold", serif;
+}
+
+.font-style-neueHaas-regular {
+    font-family: "NeueHaas Regular", serif;
+}
+
+.font-style-neueHaas-light {
+    font-family: "NeueHaas Light", serif;
 }
