@@ -43,6 +43,15 @@
     font-family: "Montserrat Semibold", serif;
 }
 
+.background-cream {
+    background-color: #F8F6F0;
+}
+
+.background-black {
+    background-color: #101010;
+}
+
+
 * {
     font-family: "Montserrat Regular", serif;
 }
