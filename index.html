@@ -7,7 +7,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
-    <script src="javascript/script.js"></script>
     <title>Yogyakarta</title>
 </head>
 <body class="mx-5">
@@ -238,10 +237,10 @@
     <div class="container-fluid px-0 py-5" id="#">
         <h1 class="m-0 mb-2 p-0 font-style-neueHaas-regular display-3 text-start">//CULINARY</h1>
         <button type="button" class="btn background-cream border-black rounded-5 font-style-neueHaas-regular btn-lg"
-                id="food" onclick="food()">Food
+                id="food" >Food
         </button>
         <button type="button" class="btn background-cream border-black rounded-5 font-style-neueHaas-regular btn-lg"
-                id="drink" onclick="drink()">Drink
+                id="drink" >Drink
         </button>
 
         <div class="container-fluid px-0 py-5" id="food-item">
@@ -342,64 +341,62 @@
 
         </div>
 
-        <div class="container-fluid px-0 py-5" id="drink-item">
+        <div class="container-fluid px-0 py-5" id="drink-item" style="display: none">
+
+            <div class="row align-items-center d-flex justify-content-center p-0 py-5 m-0">
+                <div class="col mx-5 p-0">
+                    <div class="row ">
+                        <div class="col fs-3 font-style-montserrat-semibold text-end">01</div>
+                        <div class="w-100"></div>
+                        <div class="col fs-5 font-style-montserrat-semibold text-end">
+                            Kopi Jos
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col mt-2">
+                            <p class="fs-6 text-end">
+                                Kopi jos atau kopi joss adalah minuman kopi khas Yogyakarta yang disajikan bersama arang
+                                panas. Arang panas dimasukkan ke dalam seduhan kopi hitam dan gula untuk kemudian
+                                dihidangkan. Kopi ini biasanya dijual di angkringan-angkringan di Yogyakarta. Secangkir
+                                kopi jos dibanderol sekitar 5 ribu rupiah.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-5 p-0">
+                    <img src="./assets/images/image-kopi_jos.png" alt="" class="w-100">
+                    <div class="row align-items-center justify-content-end p-0 m-0 mt-2">
+                        <p class="col col-md-auto fs-6 p-0 m-0">Kopi Jos</p>
+                        <hr class="col col-lg-1 m-0 mb-1 mx-1 p-0 border-1 border-black opacity-100">
+                        <p class="col col-md-auto fs-6 p-0 m-0">Kuliner Khas Yogyakarta</p>
+                    </div>
+                </div>
+            </div>
 
             <div class="row align-items-center d-flex justify-content-center p-0 py-5 m-0">
                 <div class="col col-5 p-0">
-                    <img src="./assets/images/image-gudeg.png" alt="" class="w-100">
+                    <img src="./assets/images/image-wedang_uwuh.png" alt="" class="w-100">
                     <div class="row align-items-center justify-content-start p-0 m-0 mt-2">
-                        <p class="col col-md-auto fs-6 p-0 m-0">Gudeg</p>
+                        <p class="col col-md-auto fs-6 p-0 m-0">Wedang Uwuh</p>
                         <hr class="col col-lg-1 m-0 mb-1 mx-1 p-0 border-1 border-black opacity-100">
                         <p class="col col-md-auto fs-6 p-0 m-0">Kuliner Khas Yogyakarta</p>
                     </div>
                 </div>
                 <div class="col mx-5 p-0">
                     <div class="row">
-                        <div class="col fs-3 font-style-montserrat-semibold">01</div>
+                        <div class="col fs-3 font-style-montserrat-semibold">02</div>
                         <div class="w-100"></div>
                         <div class="col fs-5 font-style-montserrat-semibold">
-                            Gudeg
+                            Wedang Uwuh
                         </div>
                         <div class="w-100"></div>
                         <div class="col mt-2">
                             <p class="fs-6">
-                                Gudeg adalah hidangan khas Provinsi Daerah Istimewa Yogyakarta yang terbuat dari nangka
-                                muda yang dimasak dengan . Perlu waktu berjam-jam untuk membuat hidangan ini. Warna
-                                cokelat biasanya dihasilkan oleh daun jati yang dimasak bersamaan. Gudeg biasanya
-                                dimakan dengan nasi dan disajikan dengan kuah santan kental (areh), ayam kampung, telur,
-                                tempe, tahu, dan sambal goreng krecek.
+                                Wedang uwuh adalah minuman dengan bahan-bahan yang berupa dedaunan mirip dengan rempah.
+                                Dalam bahasa Jawa, Wedang berarti minuman yang diseduh, sedangkan uwuh berarti sampah.
+                                Wedang uwuh disajikan panas atau hangat memiliki rasa manis dan pedas dengan warna merah
+                                cerah dan aroma harum.
                             </p>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row align-items-center d-flex justify-content-center p-0 py-5 m-0">
-                <div class="col mx-5 p-0">
-                    <div class="row ">
-                        <div class="col fs-3 font-style-montserrat-semibold text-end">02</div>
-                        <div class="w-100"></div>
-                        <div class="col fs-5 font-style-montserrat-semibold text-end">
-                            Sate Klatak
-                        </div>
-                        <div class="w-100"></div>
-                        <div class="col mt-2">
-                            <p class="fs-6 text-end">
-                                Sate Klatak adalah macam makanan khas yang berasal dari Kabupaten Bantul berbahan dasar
-                                daging kambing. Dengan spesifikasi tusuk sate terbuat dari besi jeruji sepeda. Cara
-                                memasak dengan dibakar dan hanya diberi bumbu garam. Cara penghidangannya setiap porsi
-                                atau menu umumnya terdiri dari 2 tusuk sate sampai 4 tusuk. Didampingi penyerta kuah,
-                                rasa yang dominan adalah gurih dari aroma daging kambing.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-5 p-0">
-                    <img src="./assets/images/image-sate_klatak.png" alt="" class="w-100">
-                    <div class="row align-items-center justify-content-end p-0 m-0 mt-2">
-                        <p class="col col-md-auto fs-6 p-0 m-0">Sate Klatak</p>
-                        <hr class="col col-lg-1 m-0 mb-1 mx-1 p-0 border-1 border-black opacity-100">
-                        <p class="col col-md-auto fs-6 p-0 m-0">Kuliner Khas Yogyakarta</p>
                     </div>
                 </div>
             </div>
@@ -465,7 +462,7 @@
 
 </div>
 
-
+<script src="javascript/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
