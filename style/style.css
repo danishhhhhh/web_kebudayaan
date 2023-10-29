@@ -72,3 +72,8 @@ body {
 .image-saturation-hover:hover {
     filter: saturate(75%)
 }
+
+.equal-height {
+    display: flex;
+    flex-wrap: wrap;
+}
