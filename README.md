@@ -1,2 +1,2 @@
 # Web Kebudayaan
-[Check Our Website for PAS Pancasila](https://danishhhhhh.github.io/web_kebudayaan/)
+[INI WEB KEBUDAYAAN ;)](https://danishhhhhh.github.io/web_kebudayaan/)
